@@ -81,4 +81,9 @@
     float: left;
     height: 20px;
   }
+
+  .health video {
+    width: 250px;
+    height: auto;
+  }
 }
