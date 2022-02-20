@@ -64,9 +64,14 @@
   height: auto;
 }
 
-video {
-  width: 100% !important;
-  height: auto !important;
+.video-container {
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-container video {
   object-fit: cover;
 }
 
