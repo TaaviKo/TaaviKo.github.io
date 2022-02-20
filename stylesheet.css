@@ -81,4 +81,8 @@
     float: left;
     height: 20px;
   }
+
+  .video-container {
+    width: 300px;
+  }
 }
