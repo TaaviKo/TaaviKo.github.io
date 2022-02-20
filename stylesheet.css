@@ -81,4 +81,9 @@
     float: left;
     height: 20px;
   }
+
+  video {
+    width: 320;
+    height: 240;
+  }
 }
