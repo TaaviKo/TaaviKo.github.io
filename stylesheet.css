@@ -1,0 +1,84 @@
+.navbar-brand img {
+  height: 50px;
+  float: left;
+}
+
+.navbar-brand h1 {
+  position: relative;
+}
+
+.container-fluid {
+  text-align: justify;
+  overflow: auto;
+}
+
+.background {
+  background-size: cover;
+  min-height: 100vh;
+  position: relative;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  background-attachment: fixed;
+}
+
+.color-overlay {
+  position: absolute;
+  align-content: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.color-overlay p {
+  font-size: 20px;
+
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 60%;
+}
+
+.history {
+  text-align: center;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.health {
+  text-align: center;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.types {
+  text-align: center;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+.types img {
+  padding-bottom: 4em;
+  width: 600px;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 16px;
+  }
+  .color-overlay p {
+    text-align: center;
+    width: 80%;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .navbar-brand img {
+    float: left;
+    height: 20px;
+  }
+}
