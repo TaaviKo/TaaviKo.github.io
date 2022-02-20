@@ -64,16 +64,8 @@
   height: auto;
 }
 
-.video-container {
+.embed-responsive {
   width: 100%;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.video-container video {
-  object-fit: contain;
 }
 
 @media (max-width: 768px) {
