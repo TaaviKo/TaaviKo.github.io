@@ -83,7 +83,7 @@
   }
 
   .health video {
-    width: 250px;
-    height: auto;
+    height: 200;
+    width: auto;
   }
 }
